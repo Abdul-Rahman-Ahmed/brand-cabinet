@@ -1,0 +1,22 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #22211f;
+  --color-secondary: #e8dfd1;
+  --color-background: #f8f6f1;
+  --color-surface: #ffffff;
+  --color-accent: #a58a62;
+
+  /* Text Colors */
+  --color-text: #22211f;
+  --color-text-muted: #77736d;
+
+  /* Typography */
+  --font-body: Arial, sans-serif;
+
+  /* Layout */
+  --container-width: 1200px;
+  --container-padding: 24px;
+
+  /* Spacing */
+  --section-spacing: 100px;
+}
