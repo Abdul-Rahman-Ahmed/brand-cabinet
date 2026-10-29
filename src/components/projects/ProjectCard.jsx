@@ -62,16 +62,17 @@ function ProjectCard({ project, language }) {
           ref={videoRef}
           className="project-card__video"
           src={project.media}
+          poster={project.media
+            .replace(/^\/videos\//, "/images/")
+            .replace(/\.(mp4|MP4)$/i, "-poster.jpg")}
           muted
           loop
           playsInline
           preload="none"
           aria-label={project.title[language]}
         />
-
         <span className="project-card__category">{badgeText}</span>
       </div>
-
       <div className="project-card__info">
         <h3>{project.title[language]}</h3>
         <p>{project.description[language]}</p>

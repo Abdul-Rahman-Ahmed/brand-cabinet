@@ -12,8 +12,8 @@ const en = {
   },
   hero: {
     eyebrow: "BRAND CABINET OMAN",
-    titleFirst: "Crafted for",
-    titleSecond: "Your Space.",
+    titleFirst: "Custom Kitchens &",
+    titleSecond: "Wardrobes in Oman.",
     description:
       "Thoughtfully designed kitchens, wardrobes, and interiors tailored to your lifestyle.",
     explore: "Explore Our Work",
